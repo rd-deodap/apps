@@ -4,8 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
 import 'package:deodap_staff_app/app_theme.dart';
-import 'navigation_home_screen.dart';
-
+import 'package:deodap_staff_app/splash/splash_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -48,7 +47,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: NavigationHomeScreen(),
+      home: Splashscreen(),
     );
   }
 }

@@ -1,0 +1,68 @@
+name: dd_selfie_app
+description: "Selfie Punch App for Work From Home Employees"
+publish_to: "none"
+
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers:
+
+  # Your existing packages (pinned)
+  get: ^4.6.6
+  package_info_plus: ^8.0.2
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+  http: ^1.2.2
+  animations: ^2.0.11
+  fl_chart: ^0.69.0
+  permission_handler:
+  intl: ^0.19.0
+  image_picker: ^1.1.2
+  device_info_plus: ^10.1.2
+  geocoding: ^3.0.0
+  geolocator: ^12.0.0
+  path_provider:
+  camera:
+  webview_flutter:
+  dio:
+  open_filex: ^4.6.0
+  image:
+  vibration:
+  cached_network_image:
+
+  # ✅ REQUIRED for "7 PM miss punch local notification"
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+  flutter_timezone: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # ✅ APP ICON GENERATOR
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/onboarding/
+    - assets/images/
+    - assets/audio/
+
+# ✅ APP ICON CONFIG (keep at bottom, root level)
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/selfie_app_icon.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21

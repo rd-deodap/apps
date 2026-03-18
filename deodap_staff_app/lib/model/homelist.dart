@@ -1,7 +1,7 @@
 import 'package:deodap_staff_app/design_course/home_design_course.dart';
 import 'package:deodap_staff_app/fitness_app/fitness_app_home_screen.dart';
 import 'package:deodap_staff_app/hotel_booking/hotel_home_screen.dart';
-import 'package:deodap_staff_app/introduction_animation/introduction_animation_screen.dart';
+import 'package:deodap_staff_app/onboarding/onboarding_screen.dart';
 import 'package:flutter/widgets.dart';
 
 class HomeList {
@@ -15,8 +15,8 @@ class HomeList {
 
   static List<HomeList> homeList = [
     HomeList(
-      imagePath: 'assets/introduction_animation/introduction_animation.png',
-      navigateScreen: IntroductionAnimationScreen(),
+      imagePath: 'assets/onboarding/onboarding.png',
+      navigateScreen: OnboardingScreen(),
     ),
     HomeList(
       imagePath: 'assets/hotel/hotel_booking.png',

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "111839036302",
+    "project_id": "deodapapp",
+    "storage_bucket": "deodapapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111839036302:android:e0d07922e19e8937241adf",
+        "android_client_info": {
+          "package_name": "com.dd.outward"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111839036302-062bdchfmt6sk0ppjv5221qkogc5pq51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dd.outward",
+            "certificate_hash": "39f74ec472309ed05e935d08dae2aea0672e09c6"
+          }
+        },
+        {
+          "client_id": "111839036302-iih55do1qh0hj8rfojdc7bpa8lojck8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCculRgrfbCyx8TItvDjkDE1zkAdQVKhic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111839036302-iih55do1qh0hj8rfojdc7bpa8lojck8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

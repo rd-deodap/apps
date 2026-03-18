@@ -1,0 +1,68 @@
+name: deodap
+description: A new Flutter project.
+version: 1.0.8+8
+
+environment:
+  sdk: ">=2.12.0 <3.3.7"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 
+  google_fonts:
+  sqflite:
+  get:
+  flutter_barcode_scanner:
+  http:
+  intl:
+  flutter_html:
+  flutter_svg:
+  firebase_auth:
+  firebase_core:
+  flutter_otp_text_field:
+  firebase_messaging:
+  overlay_support:
+  get_storage: 
+  dropdown_button2: 
+  fluttertoast:
+  dio:
+  path_provider:
+  file_utils:
+  package_info:
+  url_launcher:
+  provider:
+  connectivity:
+  image_picker:
+  image_cropper: 
+  permission_handler:
+  flutter_image_compress:
+  flutter_clean_architecture:
+  equatable:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons:
+  dart_code_metrics: ^5.7.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.jpg"
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: anekgujarati
+      fonts:
+          - asset: assets/fonts/anekgujarati_regular.ttf
+            weight: 300
+          - asset: assets/fonts/anekgujarati_medium.ttf
+            weight: 400
+          - asset: assets/fonts/anekgujarati_semibold.ttf
+            weight: 500
+          - asset: assets/fonts/anekgujarati_extrabold.ttf
+            weight: 600
+
+  assets:
+    - assets/images/

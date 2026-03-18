@@ -20,6 +20,8 @@ import 'package:dd_clo_packing_app/splash/onboarding_screen.dart';
 import 'package:dd_clo_packing_app/home/home.dart';
 import 'package:dd_clo_packing_app/qr/qr_scanner_two.dart';
 import "package:dd_clo_packing_app/qr/qr_scanner.dart";
+import "package:dd_clo_packing_app/qr/unified_scanner.dart";
+import 'package:dd_clo_packing_app/qr/qrscanner_interwarehouse_transfer.dart';
 import 'app_route.dart';
 
 class AppPages {
@@ -54,8 +56,16 @@ class AppPages {
       page: () => const OrderScannerScreen(),
      ),
     GetPage(
+      name: AppRoutes.unifiedScanner,
+      page: () => const UnifiedScannerScreen(),
+    ),
+    GetPage(
       name: AppRoutes.slipScanner,
       page: () => const SipScannerScreen(),
+    ),
+    GetPage(
+      name: AppRoutes.iwtScanner,
+      page: () => const IwtScannerScreen(),
     ),
 
     // Info / legal / settings

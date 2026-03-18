@@ -47,10 +47,19 @@ class AppAudio {
 /// - Supports raw hash
 /// - Supports URL QR: .../something/<hash>
 /// - Supports query param: ?order_hash=XXXX
+/// - Supports caret-separated: 193^62832221^92472357478234 → 62832221
 /// =========================================================
 String normalizeOrderHash(String raw) {
   final v = raw.trim();
   if (v.isEmpty) return v;
+
+  // Handle caret-separated format: extract second part as order number
+  if (v.contains('^')) {
+    final parts = v.split('^');
+    if (parts.length >= 2 && parts[1].trim().isNotEmpty) {
+      return parts[1].trim();
+    }
+  }
 
   Uri? uri;
   try {

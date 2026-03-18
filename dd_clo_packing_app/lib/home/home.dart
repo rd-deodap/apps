@@ -342,7 +342,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                       title: 'CLO Packaging Scanner',
                                       subtitle: 'Scan QR to start order processing and slips',
                                       icon: Icons.qr_code_scanner,
-                                      onTap: () => Get.toNamed(AppRoutes.qrScanner),
+                                      onTap: () => Get.toNamed(AppRoutes.unifiedScanner),
                                     ),
                                   ),
                                   const SizedBox(height: 12),
@@ -356,6 +356,19 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                       subtitle: 'Scan or open slips directly for verification',
                                       icon: Icons.receipt_long,
                                       onTap: () => Get.toNamed(AppRoutes.slipScanner),
+                                    ),
+                                  ),
+                                  const SizedBox(height: 12),
+
+                                  _Stagger(
+                                    controller: _tilesCtrl,
+                                    index: 2,
+                                    child: _ActionCard(
+                                      brand: brand,
+                                      title: 'Inter-Warehouse Transfer',
+                                      subtitle: 'Scan QR to initiate inventory transfer between warehouses',
+                                      icon: Icons.swap_horiz_rounded,
+                                      onTap: () => Get.toNamed(AppRoutes.iwtScanner),
                                     ),
                                   ),
                                   const SizedBox(height: 12),
@@ -1292,7 +1305,7 @@ class _HomeDrawer extends StatelessWidget {
                     title: 'QR Scanner (Packing)',
                     onTap: () {
                       Navigator.pop(context);
-                      Get.toNamed(AppRoutes.qrScanner);
+                      Get.toNamed(AppRoutes.unifiedScanner);
                     },
                   ),
                   _DrawerMenuItem(

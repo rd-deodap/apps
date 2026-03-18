@@ -6,6 +6,7 @@ class AppRoutes {
   static const String onboarding = '/onboarding';
   static const String login = '/login';
   static const String qrScanner = '/qr-scanner';
+  static const String unifiedScanner = '/unified-scanner';
   static const String privacyPolicy = '/privacy-policy';
   static const String termsAndConditions = '/terms-and-conditions';
   static const String settings = '/settings';
@@ -16,4 +17,5 @@ class AppRoutes {
   static const String termconditions = '/term-conditions';
   static const String HowItWorksScreen = '/how-it-works';
   static  const String slipScanner = '/slip-scanner';
+  static const String iwtScanner = '/iwt-scanner';
 }

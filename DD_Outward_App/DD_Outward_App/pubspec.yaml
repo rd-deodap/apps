@@ -1,0 +1,74 @@
+name: deodap
+description: A new Flutter project.
+version: 1.9.0+9
+
+environment:
+  sdk: ">=3.6.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons:
+  google_fonts:
+  sqflite:
+  camera:
+  get:
+  #flutter_barcode_scanner: ^2.0.0
+  mobile_scanner:  # or ^7.0.1 — either one that fits your project
+  #qr_bar_code_scanner_dialog:
+  #qr_code_scanner: ^1.0.0
+  http:
+  audioplayers:
+  screenshot:
+  permission_handler:
+  lottie:
+  intl:
+  flutter_html:
+  flutter_slidable:
+  flutter_svg:
+  firebase_auth:
+  cached_network_image:
+  firebase_core:
+  flutter_otp_text_field:
+  firebase_messaging:
+  overlay_support:
+  get_storage:
+  dropdown_button2:
+  fluttertoast:
+  dio:
+  path_provider:
+  file_utils:
+  #geolocator: ^11.1.0
+  calendar_date_picker2:
+  package_info_plus:
+  url_launcher:
+  provider:
+  connectivity_plus:
+  image_picker:
+  carousel_slider:
+  photo_view:
+  dots_indicator:
+  image_cropper: ^9.1.0
+  flutter_image_compress:
+  flutter_clean_architecture:
+  equatable:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons:
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sound.mp3
+    - assets/success.mp3
+    - assets/ani.json
